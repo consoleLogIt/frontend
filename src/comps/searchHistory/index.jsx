@@ -9,97 +9,97 @@ import Button from "../button";
 import Card from "../card";
 import Store from "../../store";
 
-const SearchData = [
-  {
-    userName: "consoleLogIt",
-    data: {
-      login: "consoleLogIt",
-      id: 67229376,
-      node_id: "MDQ6VXNlcjY3MjI5Mzc2",
-      avatar_url: "https://avatars.githubusercontent.com/u/67229376?v=4",
-      gravatar_id: "",
-      url: "https://api.github.com/users/consoleLogIt",
-      html_url: "https://github.com/consoleLogIt",
-      followers_url: "https://api.github.com/users/consoleLogIt/followers",
-      following_url:
-        "https://api.github.com/users/consoleLogIt/following{/other_user}",
-      gists_url: "https://api.github.com/users/consoleLogIt/gists{/gist_id}",
-      starred_url:
-        "https://api.github.com/users/consoleLogIt/starred{/owner}{/repo}",
-      subscriptions_url:
-        "https://api.github.com/users/consoleLogIt/subscriptions",
-      organizations_url: "https://api.github.com/users/consoleLogIt/orgs",
-      repos_url: "https://api.github.com/users/consoleLogIt/repos",
-      events_url: "https://api.github.com/users/consoleLogIt/events{/privacy}",
-      received_events_url:
-        "https://api.github.com/users/consoleLogIt/received_events",
-      type: "User",
-      user_view_type: "public",
-      site_admin: false,
-      name: "Kishan Singh",
-      company: null,
-      blog: "",
-      location: null,
-      email: null,
-      hireable: null,
-      bio: null,
-      twitter_username: null,
-      public_repos: 33,
-      public_gists: 0,
-      followers: 0,
-      following: 0,
-      created_at: "2020-06-21T13:05:52Z",
-      updated_at: "2025-02-16T07:08:29Z",
-    },
-  },
+// const SearchData = [
+//   {
+//     userName: "consoleLogIt",
+//     data: {
+//       login: "consoleLogIt",
+//       id: 67229376,
+//       node_id: "MDQ6VXNlcjY3MjI5Mzc2",
+//       avatar_url: "https://avatars.githubusercontent.com/u/67229376?v=4",
+//       gravatar_id: "",
+//       url: "https://api.github.com/users/consoleLogIt",
+//       html_url: "https://github.com/consoleLogIt",
+//       followers_url: "https://api.github.com/users/consoleLogIt/followers",
+//       following_url:
+//         "https://api.github.com/users/consoleLogIt/following{/other_user}",
+//       gists_url: "https://api.github.com/users/consoleLogIt/gists{/gist_id}",
+//       starred_url:
+//         "https://api.github.com/users/consoleLogIt/starred{/owner}{/repo}",
+//       subscriptions_url:
+//         "https://api.github.com/users/consoleLogIt/subscriptions",
+//       organizations_url: "https://api.github.com/users/consoleLogIt/orgs",
+//       repos_url: "https://api.github.com/users/consoleLogIt/repos",
+//       events_url: "https://api.github.com/users/consoleLogIt/events{/privacy}",
+//       received_events_url:
+//         "https://api.github.com/users/consoleLogIt/received_events",
+//       type: "User",
+//       user_view_type: "public",
+//       site_admin: false,
+//       name: "Kishan Singh",
+//       company: null,
+//       blog: "",
+//       location: null,
+//       email: null,
+//       hireable: null,
+//       bio: null,
+//       twitter_username: null,
+//       public_repos: 33,
+//       public_gists: 0,
+//       followers: 0,
+//       following: 0,
+//       created_at: "2020-06-21T13:05:52Z",
+//       updated_at: "2025-02-16T07:08:29Z",
+//     },
+//   },
 
-  {
-    userName: "consoleLogIt",
-    data: {
-      login: "consoleLogIt",
-      id: 67229376,
-      node_id: "MDQ6VXNlcjY3MjI5Mzc2",
-      avatar_url: "https://avatars.githubusercontent.com/u/67229376?v=4",
-      gravatar_id: "",
-      url: "https://api.github.com/users/consoleLogIt",
-      html_url: "https://github.com/consoleLogIt",
-      followers_url: "https://api.github.com/users/consoleLogIt/followers",
-      following_url:
-        "https://api.github.com/users/consoleLogIt/following{/other_user}",
-      gists_url: "https://api.github.com/users/consoleLogIt/gists{/gist_id}",
-      starred_url:
-        "https://api.github.com/users/consoleLogIt/starred{/owner}{/repo}",
-      subscriptions_url:
-        "https://api.github.com/users/consoleLogIt/subscriptions",
-      organizations_url: "https://api.github.com/users/consoleLogIt/orgs",
-      repos_url: "https://api.github.com/users/consoleLogIt/repos",
-      events_url: "https://api.github.com/users/consoleLogIt/events{/privacy}",
-      received_events_url:
-        "https://api.github.com/users/consoleLogIt/received_events",
-      type: "User",
-      user_view_type: "public",
-      site_admin: false,
-      name: "Kishan Singh",
-      company: null,
-      blog: "",
-      location: null,
-      email: null,
-      hireable: null,
-      bio: null,
-      twitter_username: null,
-      public_repos: 33,
-      public_gists: 0,
-      followers: 0,
-      following: 0,
-      created_at: "2020-06-21T13:05:52Z",
-      updated_at: "2025-02-16T07:08:29Z",
-    },
-  },
+//   {
+//     userName: "consoleLogIt",
+//     data: {
+//       login: "consoleLogIt",
+//       id: 67229376,
+//       node_id: "MDQ6VXNlcjY3MjI5Mzc2",
+//       avatar_url: "https://avatars.githubusercontent.com/u/67229376?v=4",
+//       gravatar_id: "",
+//       url: "https://api.github.com/users/consoleLogIt",
+//       html_url: "https://github.com/consoleLogIt",
+//       followers_url: "https://api.github.com/users/consoleLogIt/followers",
+//       following_url:
+//         "https://api.github.com/users/consoleLogIt/following{/other_user}",
+//       gists_url: "https://api.github.com/users/consoleLogIt/gists{/gist_id}",
+//       starred_url:
+//         "https://api.github.com/users/consoleLogIt/starred{/owner}{/repo}",
+//       subscriptions_url:
+//         "https://api.github.com/users/consoleLogIt/subscriptions",
+//       organizations_url: "https://api.github.com/users/consoleLogIt/orgs",
+//       repos_url: "https://api.github.com/users/consoleLogIt/repos",
+//       events_url: "https://api.github.com/users/consoleLogIt/events{/privacy}",
+//       received_events_url:
+//         "https://api.github.com/users/consoleLogIt/received_events",
+//       type: "User",
+//       user_view_type: "public",
+//       site_admin: false,
+//       name: "Kishan Singh",
+//       company: null,
+//       blog: "",
+//       location: null,
+//       email: null,
+//       hireable: null,
+//       bio: null,
+//       twitter_username: null,
+//       public_repos: 33,
+//       public_gists: 0,
+//       followers: 0,
+//       following: 0,
+//       created_at: "2020-06-21T13:05:52Z",
+//       updated_at: "2025-02-16T07:08:29Z",
+//     },
+//   },
 
-  //   {
-  //     userName: "hello",
-  //   },
-];
+//   //   {
+//   //     userName: "hello",
+//   //   },
+// ];
 
 // const searchData = [
 //   {
@@ -148,7 +148,7 @@ export default function SearchHistory() {
           <span style={{ fontSize: "1.5rem" }}>No history</span>
         ) : (
           <HistoryContainerStyled>
-            <HeaderStyled>
+            <HeaderStyled key="header">
               <span style={{ minWidth: "10rem", color: "rgb(185 187 202)" }}>
                 Search Term
               </span>
@@ -169,7 +169,7 @@ export default function SearchHistory() {
               }}
             >
               {historyData.map((d) => (
-                <HistoryItemStyled>
+                <HistoryItemStyled key={d.data.login}>
                   <b style={{ minWidth: "10rem" }}>{d.userName}</b>
                   {d.data ? (
                     <Card

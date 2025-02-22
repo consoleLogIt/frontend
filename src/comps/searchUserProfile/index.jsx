@@ -5,6 +5,7 @@ import Searchbar from "../searchbar";
 import Button from "../button";
 import { WrapperStyled } from "./styled";
 import Store from "../../store";
+import { v4 as uuidv4 } from 'uuid';
 
 export default function SearchUserProfile() {
   const [value, setValue] = useState("");
@@ -41,6 +42,7 @@ export default function SearchUserProfile() {
         {
           userName: value,
           data: response.data,
+          id:uuidv4()
         },
         ...filterd,
       ]);
@@ -55,6 +57,7 @@ export default function SearchUserProfile() {
         Store.setHistory([
           {
             userName: value,
+            id:uuidv4()
           },
           ...filterd,
         ]);

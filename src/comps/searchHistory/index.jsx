@@ -169,7 +169,7 @@ export default function SearchHistory() {
               }}
             >
               {historyData.map((d) => (
-                <HistoryItemStyled key={d.data.login}>
+                <HistoryItemStyled key={d.data.id}>
                   <b style={{ minWidth: "10rem" }}>{d.userName}</b>
                   {d.data ? (
                     <Card

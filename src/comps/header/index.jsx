@@ -9,9 +9,11 @@ export default function Header({ options }) {
     setActive(option);
     navigate(option.to);
   };
+
+  // get the current selected from the url.
   const [active, setActive] = useState(() => {
     const currentPath = location.pathname;
-    return options.find((option) => option.to === currentPath) || options[0];
+    return options.find((option) => option.to === currentPath);
   });
   return (
     <HeaderContainerStyled>

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'noto_sans';
+  src: url('./assets/fonts/notosans-regular-webfont.woff') format('woff');
+}
+
+
+body{
+  margin:0;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: "noto_sans";
+  font-size: 62.5%;
+}
